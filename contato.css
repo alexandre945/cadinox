@@ -1,0 +1,142 @@
+
+body#contato {
+    height: 800px;
+    width: 400px;
+ 
+    background: url('imagens/3e3f0de1-1641-4407-8c2c-c970e1be1bf9.jpg');
+    position: 20% 15%;
+}
+h3#h3 {
+    color:black;
+    background-color:white;
+    margin-top: 5px;
+}
+nav#nave {
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+
+
+}
+h1#pd {
+    margin-top: 100px;
+    color: black;
+    background-color: white;
+}
+h2#duv {
+    color: black;
+    background-color: white;
+}
+.img {
+    display: flex;
+}
+.img img#img2 {
+    float: right;
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: 300px;
+}
+.img img#img3 {
+    margin-left: 5px;
+    height: 150px;
+    width: 150px;
+    margin-top: 300px;
+}
+.img img#img1 {
+    margin-left: 300px;
+    height: 150px;
+    width: 150px;
+    margin-top: 300px;
+}
+.img img#img4 {
+    margin-left: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: 300px;
+}
+.img img#img5 {
+    height: 140px;
+    width: 140px;
+    margin-top: 300px;
+    background-color: rgba(0, 0, 0, 0.055);
+    margin-left: 60px;
+    color: blue;
+
+}
+ a#mail {
+     color: black;
+     background-color: white;
+ }
+ a#face {
+     color: black;
+     background-color: white;
+ }
+ a#ista {
+     color:black;
+    background-color: whitesmoke;
+ }
+ li#li3 {
+     margin-left:1000px;
+     font-size: 20pt;
+     margin-left: -200px;
+     background-color: white;
+
+ }
+ li#li2 {
+     float: left;
+     font-size: 16pt;
+     background-color: white;
+
+ }
+ li#li1 {
+     background-color:rgba(255, 255, 255, 0.568);
+     font-size: 15pt;
+     margin-left: -300px;
+ }
+ li#li4 {
+    margin-right: -550px;
+    margin-top: -100px;
+    background-color: white;
+ }
+ li#li5 {
+     margin-left: -500px;
+     color: black;
+     margin-left: 1200px;
+     margin-top: -100px;
+     background-color: white;
+ }
+ ul {
+     list-style: none;
+ }
+ 
+ 
+ h3#h3 {
+    background-color:white;
+    color: black; 
+ }
+ 
+ .container {
+     display: grid;
+     grid-template-columns: 2fr 5px;
+     grid-template-rows: 50vh 60vh 50vh;
+     grid-gap:0px;
+     
+    
+ }
+ .container header {
+ grid-column-start: 1;
+ grid-column-end: 5;
+ 
+ /* height: 100px; */
+ justify-self: center;
+ 
+ }
+
+ main {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  justify-self: auto;
+ }
+
+ 

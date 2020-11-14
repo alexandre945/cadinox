@@ -1,0 +1,401 @@
+nav#but {
+    margin-top: -320px;
+}
+h1#inox {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.529);
+}
+h2#area {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.529);
+}
+p#brasil {
+    background-color: rgba(255, 255, 255, 0.529);
+}
+p#brasil {
+    font-size: 15pt;
+}
+img#fot {
+    width: 200px;
+    height: 200px;
+    float: left; 
+    margin-top: 250px;
+}
+ul#foto li span {
+    opacity: 0;
+}
+
+ul#foto {
+    width: 700px;
+    margin:0 auto;
+    padding: 50px;
+    /* overflow: hidden */
+    list-style:none;
+    margin-top: 300px;
+}
+ul#foto li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgb(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in;
+
+}
+ul#foto li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#foto li#foto01:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto02:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+ul#foto li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#foto li#foto04:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto05:hover {  
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto06:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto07:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto08:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+ul#foto li#foto09:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#foto li#foto10:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto11:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto12:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto13:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto14:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto15:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto16:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto17:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto18:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto19:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto20:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto21:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+ul#foto li#foto22:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+ul#foto li#foto23:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+ul#foto li#foto24:hover {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+ul#foto li#foto25:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+ul#foto li#foto26:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+}
+ul#foto li#foto27:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#foto li#foto01 {
+    background: url('imagens/1.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+    background-color: #ffffff;
+
+}
+ul#foto li#foto02 {
+    background: url('imagens/24.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto03 {
+    background: url('imagens/73475236_118798662872762_1616996839813283840_o.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto04 {
+    background: url('imagens/75419015_127377968681498_7520984890645413888_n.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto05 {
+    background: url('imagens/76b1cba3-7e2c-4267-af1c-edb55a9badd2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto06 {
+    background: url('imagens/77069625_128782115207750_331287479128686592_o.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto07 {
+    background: url('imagens/78151345_129184168500878_899973885359816704_o.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto08 {
+    background: url('imagens/fec873ed-fff6-4eb2-a0ae-78484d8cd942.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto09 {
+    background: url('imagens/78430913_133362658083029_3716702421209055232_o.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto10 {
+    background: url('imagens/d956728e-4046-4068-b12a-da54c6de9749.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto11 {
+    background: url('imagens/eca890f9-6cf0-4287-8659-a4b2e4dee1ba.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto12 {
+    background: url('imagens/ee75ee41-a6ac-4061-906f-c896c20e1137.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto13 {
+    background: url('imagens/PicsArt_10-29-02.01.14_1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto14 {
+    background: url('imagens/WhatsApp\ Image\ 2019-10-14\ at\ 14.26.44.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto15 {
+    background: url('imagens/WhatsApp\ Image\ 2019-10-14\ at\ 14.26.44.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto16 {
+    background: url('imagens/WhatsApp\ Image\ 2019-10-26\ at\ 16.13.03\ \(1\).jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto17 {
+    background: url('imagens/ee75ee41-a6ac-4061-906f-c896c20e1137.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto18 {
+    background: url('imagens/eca890f9-6cf0-4287-8659-a4b2e4dee1ba.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto19{
+    background: url('imagens/78430913_133362658083029_3716702421209055232_o.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+        background-color: #ffffff;
+}ul#foto li#foto20 {
+    background: url('imagens/4abad95f-cd5e-42cf-bab2-367120d1467a.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto21 {
+    background: url('imagens/0b06f035-0e5a-4a27-9408-502ff2aa45a0.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto22 {
+    background: url('imagens/42d2924f-2c13-406f-b114-fc3766070fa7.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto23 {
+    background: url("imagens/1f192f9a-2d45-4e2b-854c-ef0301db5cba.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+} 
+
+ul#foto li#foto24 {
+    background: url("imagens/4abad95f-cd5e-42cf-bab2-367120d1467a.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+
+
+} 
+ul#foto li#foto25 {
+  
+    background: url("imagens/78430913_133362658083029_3716702421209055232_o.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto26 {
+
+    background: url("imagens/73475236_118798662872762_1616996839813283840_o.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto27 {
+
+    background: url("imagens/78151345_129184168500878_899973885359816704_o.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ol#fot li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgb(0,0,0,.4);
+    -webkit-transition: all 0.5s ease-in;
+}
+ol#fot li:hover {
+    -webkit-transform: scale(1.5);
+}
+ol#fot li#fot01 {
+    background: url("imagens/Raimundo.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ol#fot li#fot02 {
+    background: url("imagens/ricardo.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ol#fot li#fot03 {
+    background: url("imagens/aequipe.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ol#fot li#fot01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ol#fot li#fot02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ol#fot li#fot03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ol#fot {
+    width: 700px;
+    margin:0 auto;
+    padding: 50px;
+    /* overflow: hidden */
+    list-style:none;
+    margin-top: 800px;
+
+}
+
+
+
+
