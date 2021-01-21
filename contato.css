@@ -40,8 +40,8 @@ h2#duv {
 .img img#img2 {
     float: right;
     margin-left: 100px;
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
     margin-top: 300px;
 }
 .img img#img3 {
@@ -83,6 +83,12 @@ h2#duv {
      color:black;
     background-color: whitesmoke;
  }
+ a#book {
+     width: 30px;
+     height: 10px;
+     color: brown;
+
+ }
  li#li3 {
      margin-left:1000px;
      font-size: 20pt;
@@ -122,6 +128,7 @@ h2#duv {
  ul {
      list-style: none;
  }
+ 
  
  
  h3#h3 {

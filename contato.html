@@ -1,51 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="contato.css">
-    <title>inox</title>
-</head>
-<body id="contato">
-<div class="container">
-    <header>
-        <nav id="nave">
-            <a href="index.html"><button type="text">HOME</button></a>
-            <a href="contato.html"><button type="text">CONTATO</button></a>
-            <a href="produtos.html"><button type="text">PRODUTOS</button></a>
-            
-        </nav>
-            <h1 id="pd">quer fazer seu pedido</h1>
-            <h2 id="duv">Quer tirar suas Duvidas:</h2>
-            <h3 id="h3"><i>Entre em contato: com agente e teremos o maior<br> prazer em atendelos ,e atender suas necessidades.</i></h3>
 
 
-    </header>
-    <main>
-        <div class="img">
-            <img id="img3"src="imagens/icone-endereco.png">
-            <img id="img1"src="imagens/contato.png">
-            <a href="https://facebook.com/cadinox" target="blank"><img id="img2"src="imagens/facebook.png"></a>
-            <img id="img4"src="imagens/icone-mensagem.png"> 
-            <a href="https://instagram.com/cadinox" target="blank"><img id="img5"src="imagens/istagram.png"></a>
-        </div>
-   
-         <div id="cont">
-            <ul>
-                <li id="li1">TL-(35)3271-3717</li>
-                <li id="li2">Rua:Joaquim André de Carvalho<br>Numero 1143<br>Lambari-MG</li>
-                <li id="li3"><a id="face" href="https://facebook.com/cadinox" target="blank">facebook</a></li>
-                <li id="li4"><p>E-MAIL<br><br>Financeiro@cadinoxequipamentos.com.br<br>contato@cadinoxequipamentos.com.br<br> vendas@cadinoxequipamentos.com.br<br></p></li>
-                <li id="li5"><a id="ista" href="https://instagram.com/cadinox" target="blank">INSTAGRAM</a></li>
-            </ul>
-        </div>
-    </main>
-    
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="contato.css">
+     <title>Contato</title>
+ </head>
+ <body  style="background-color: steelblue;">
+    <div="app">
+      
+        <a href="index.html"><button type="text" style="background-color: blue; color: white; width: 100px; height: 40px;border-radius: 8px; ">HOME</button></a>
+        <a href="contato.html"><button type="text"  style="background-color: blue; color: white; width: 100px; height: 40px;border-radius: 8px; ">CONTATO</button></a>
+        <a href="produtos.html"><button id="btnt" ype="text"  style="background-color: blue; color: white; width: 100px; height: 40px;border-radius: 8px; ">PRODUTOS</button></a><hr>
+     
+         <ol>
+                <li><img id="img3"src="imagens/icone-endereco.png"> </li>
+                <p>Rua:Joaquin Andrades de Carvalho N-143 Lambari-MG</p>
+                <li><img src="imagens/contato.png" style="max-width: 200px;"> </li>
+                <p>TL-35(3271-3717)</p>
+                <li ><a id="book" href="https://facebook.com/cadinox" target="blank"><img src="imagens/facebook.png" style="max-width: 200px;"></a> </li>
+                <P>FACEBOOK</P>
+                <li><img id="img4"src="imagens/icone-mensagem.png"></li>
+                <p>financeiro@cadinoxequipamentos.com.br<br>comtato@cadinoxequipamentos.com.br<br>
+                vendas@cadinoxequipamentos.com.br</p>
+            <li><a href="https://instagram.com/cadinox" target="blank"><img src="./imagens/instagran.jpg" style="max-width: 200px;"></a></li>
+                 <p>INSTAGRAN</p>
+         </ol>
+          
+         
+    </div>
 </div>
-<footer>
-    
-</footer>
-    
-</body>
-</html>
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+   const app = {
+       data() {
+           return {
+                 product: {
+                 titulo: 'Cadinox',
+                subtitulo: 'Tudo que você Precisa em Inox',
+               image: './imagens/cadinox.jpg',
+                paragrafo:'CadiNOX' ,
+                 },
+                
+               
+           }
+          
+
+       }
+     
+   }
+   Vue.createApp(app).mount('#app')
+</script>
+ 
+     
+ </body>
+ </html>
