@@ -13,13 +13,23 @@
             <a href="index.html"><button type="text">HOME</button></a>
             <a href="contato.html"><button type="text" >CONTATO</button></a>
             <a href="produtos.html"><button id="btnt" >PRODUTOS</button></a><hr>
-       <ul>
-           <li v-for="product in products">
-              <p>{{ product.title }}</p>
-              <img :src="product.image" >
-                
-           </li>
-        </ul>
+            <div id="fotos">
+                <ul>
+                    <li v-for="product in products">
+                       <p>{{ product.title }}</p>
+                       <p>{{ product.subtitulo }}</p>
+                       <img :src="product.image" >
+                    </li>
+                </ul>
+                    <ul>
+                     <li v-for="produto in produtos">
+                        <p>{{ produto.title }}</p>
+                        <p>{{ produto.subtitulo }}</p>
+                        <img :src="produto.image" >
+                     </li>
+                  </ul>
+            </div>
+      
     </div>
       
        
@@ -39,7 +49,7 @@
                 },
                 products:[
                     {
-                        title:'produto cadiNox',
+                        subtitulo: 'Tudo que você Precisa em Inox',
                         image:'./imagens/fec873ed-fff6-4eb2-a0ae-78484d8cd942.jpg',
                     },
                     {
@@ -73,11 +83,9 @@
                         title:'produto cadiNox',
                         image:'./imagens/d956728e-4046-4068-b12a-da54c6de9749.jpg',
                     },
-                    {
-                        title:'produto cadiNox',
-                        image:'./imagens/eca890f9-6cf0-4287-8659-a4b2e4dee1ba.jpg',
-                    },
-                    
+                   
+                ],
+                    produtos: [
                     {
                         title:'produto cadiNox',
                         image:'./imagens/PicsArt_10-29-02.01.14_1.jpg',
@@ -106,10 +114,17 @@
                         title:'produto cadiNox',
                         image:'./imagens/1b5d6c8f-7a2b-4719-ba41-b6065dbe646e.jpg',
                     },
+                    {
+                        title:'produto cadiNox',
+                        image:'./imagens/eca890f9-6cf0-4287-8659-a4b2e4dee1ba.jpg',
+                    },
+                    ]
+                    
+                   
                     
                     
 
-                ]
+                
                
               
           }

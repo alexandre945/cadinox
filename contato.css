@@ -76,7 +76,9 @@ h2#duv {
 }
 img {
     width: 350px;
+    height: 400px;
     display: flex;
+    border: solid 2px black;
 }
  a#mail {
      color: black;
@@ -175,5 +177,13 @@ button {
 }
 #contato img {
     width: 200px;
+}
+#fotos {
+    display: flex;
+    padding-top: 50px;
+    margin-top: 10px;
+    margin-left: 200px;
+   
+    
 }
  
