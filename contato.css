@@ -13,6 +13,9 @@ body#contato {
     -o-background-size: cover;
     background-color:#fff;
 }
+body {
+    background-color: steelblue;
+}
 h3#h3 {
     color:black;
     background-color:white;
@@ -70,6 +73,10 @@ h2#duv {
     margin-left: 60px;
     color: blue;
 
+}
+img {
+    width: 350px;
+    display: flex;
 }
  a#mail {
      color: black;
@@ -159,5 +166,14 @@ h2#duv {
   justify-self: auto;
   margin-top: 340px;
  }
-
+button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+}
+#contato img {
+    width: 200px;
+}
  

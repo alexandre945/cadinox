@@ -4,23 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="contato.css"> -->
+     <link rel="stylesheet" href="contato.css"> 
     <title>Contato</title>
 </head>
-<body  style="background-color: steelblue";>
+<body >
    <div id="app">
      
-       <a href="index.html"><button type="text" style="background-color: blue; color: white; width: 100px; height: 40px;border-radius: 8px; ">HOME</button></a>
-       <a href="contato.html"><button type="text"  style="background-color: blue; color: white; width: 100px; height: 40px;border-radius: 8px; ">CONTATO</button></a>
-       <a href="produtos.html"><button id="btnt" ype="text"  style="background-color: blue; color: white; width: 100px; height: 40px;border-radius: 8px; ">PRODUTOS</button></a><hr>
+            <a href="index.html"><button type="text">HOME</button></a>
+            <a href="contato.html"><button type="text" >CONTATO</button></a>
+            <a href="produtos.html"><button id="btnt" >PRODUTOS</button></a><hr>
        <ul>
            <li v-for="product in products">
               <p>{{ product.title }}</p>
-              <img :src="product.image" style="max-width: 350px;">
-              <img :src="product.img">
+              <img :src="product.image" >
+                
            </li>
+        </ul>
     </div>
-       </ul>
+      
        
          
         
@@ -34,7 +35,6 @@
                 product: {
                 titulo: 'Cadinox',
                subtitulo: 'Tudo que você Precisa em Inox',
-                img: 'background-url./imagens/inox.jpg',
                paragrafo:'CadiNOX' ,
                 },
                 products:[
