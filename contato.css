@@ -177,6 +177,12 @@ button {
 }
 #contato img {
     width: 200px;
+    height: 300px;
+    background-color: rgb(16, 103, 124);
+   
+}
+#ista {
+    color: rgb(16, 103, 124) ;
 }
 #fotos {
     display: flex;
