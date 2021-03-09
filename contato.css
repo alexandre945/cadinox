@@ -98,6 +98,7 @@ img {
      color: brown;
 
  }
+ 
  li#li3 {
      margin-left:1000px;
      font-size: 20pt;
@@ -126,8 +127,10 @@ img {
      color: black;
      margin-left: 1200px;
      margin-top: -100px;
-     background-color: white;
+     /* background-color: white; */
  }
+
+ 
  #cont {
   white-space: nowrap;
   
@@ -181,9 +184,7 @@ button {
     background-color: rgb(16, 103, 124);
    
 }
-#ista {
-    color: rgb(16, 103, 124) ;
-}
+
 #fotos {
     display: flex;
     padding-top: 50px;
