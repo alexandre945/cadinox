@@ -186,4 +186,12 @@ button {
    
     
 }
+@media (max-width: 600px) {
+  #fotos {
+      margin-left: -5px;
+      width: 100px;
+      height: 80px;
+      
+  }
+    }
  
